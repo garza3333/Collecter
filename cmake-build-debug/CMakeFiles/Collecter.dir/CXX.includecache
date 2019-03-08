@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Toshiba/CLionProjects/Collecter/headers/List.h
+Node.h
+C:/Users/Toshiba/CLionProjects/Collecter/headers/Node.h
+
+C:/Users/Toshiba/CLionProjects/Collecter/headers/Node.h
+
+C:/Users/Toshiba/CLionProjects/Collecter/source/List.cpp
+../headers/List.h
+C:/Users/Toshiba/CLionProjects/Collecter/headers/List.h
+iostream
+-
+
