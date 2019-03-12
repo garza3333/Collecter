@@ -6,15 +6,39 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Toshiba/CLionProjects/Collecter/headers/List.h
+/home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
+List.h
+/home/sebas211288/Desktop/ProyectCollector/headers/List.h
+
+/home/sebas211288/Desktop/ProyectCollector/headers/List.h
 Node.h
-C:/Users/Toshiba/CLionProjects/Collecter/headers/Node.h
+/home/sebas211288/Desktop/ProyectCollector/headers/Node.h
 
-C:/Users/Toshiba/CLionProjects/Collecter/headers/Node.h
+/home/sebas211288/Desktop/ProyectCollector/headers/Node.h
+cstddef
+-
+Collector.h
+/home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
 
-C:/Users/Toshiba/CLionProjects/Collecter/source/List.cpp
-../headers/List.h
-C:/Users/Toshiba/CLionProjects/Collecter/headers/List.h
+/home/sebas211288/Desktop/ProyectCollector/main.cpp
 iostream
 -
+headers/List.h
+/home/sebas211288/Desktop/ProyectCollector/headers/List.h
+
+/home/sebas211288/Desktop/ProyectCollector/source/Collector.cpp
+../headers/Collector.h
+/home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
+
+/home/sebas211288/Desktop/ProyectCollector/source/List.cpp
+../headers/List.h
+/home/sebas211288/Desktop/ProyectCollector/headers/List.h
+iostream
+-
+
+/home/sebas211288/Desktop/ProyectCollector/source/Node.cpp
+cstdlib
+-
+../headers/Node.h
+/home/sebas211288/Desktop/ProyectCollector/headers/Node.h
 

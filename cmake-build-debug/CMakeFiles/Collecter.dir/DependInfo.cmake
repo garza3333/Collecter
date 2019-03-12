@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Toshiba/CLionProjects/Collecter/main.cpp" "C:/Users/Toshiba/CLionProjects/Collecter/cmake-build-debug/CMakeFiles/Collecter.dir/main.cpp.obj"
-  "C:/Users/Toshiba/CLionProjects/Collecter/source/Collector.cpp" "C:/Users/Toshiba/CLionProjects/Collecter/cmake-build-debug/CMakeFiles/Collecter.dir/source/Collector.cpp.obj"
-  "C:/Users/Toshiba/CLionProjects/Collecter/source/List.cpp" "C:/Users/Toshiba/CLionProjects/Collecter/cmake-build-debug/CMakeFiles/Collecter.dir/source/List.cpp.obj"
-  "C:/Users/Toshiba/CLionProjects/Collecter/source/Node.cpp" "C:/Users/Toshiba/CLionProjects/Collecter/cmake-build-debug/CMakeFiles/Collecter.dir/source/Node.cpp.obj"
+  "/home/sebas211288/Desktop/ProyectCollector/main.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/main.cpp.o"
+  "/home/sebas211288/Desktop/ProyectCollector/source/Collector.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/source/Collector.cpp.o"
+  "/home/sebas211288/Desktop/ProyectCollector/source/List.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/source/List.cpp.o"
+  "/home/sebas211288/Desktop/ProyectCollector/source/Node.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/source/Node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Collecter.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Collecter.dir/objects.a @CMakeFiles\Collecter.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Collecter.dir/objects.a -Wl,--no-whole-archive  -o Collecter.exe -Wl,--out-implib,libCollecter.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Collecter.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/Collecter.dir/main.cpp.o CMakeFiles/Collecter.dir/source/List.cpp.o CMakeFiles/Collecter.dir/source/Node.cpp.o CMakeFiles/Collecter.dir/source/Collector.cpp.o  -o Collecter 
