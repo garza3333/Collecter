@@ -36,17 +36,23 @@ void* Node:: operator new(size_t size) {
 //    }
 
     //void * p = malloc(size);
-    void *p = ::new Node();
-/*    if(p != nullptr){
+/*    void *p = ::new Node();
+*//*    if(p != nullptr){
         *static_cast<int*>(p);
-    }*/
-    return p;
+    }*//*
+    return p;*/
+
+    Node * node ;
+    if(!collector.getList().isEmptyC()){
+        node = reinterpret_cast<Node *>(collector.getList().getHeadC()->getVal());
+        collector.getList().deleteCollectorNode();
+    }else{
+        node = :: new Node();
+    }
+    return node;
 
 }
 void Node::operator delete(void *p){
-    collector.getList().add(&p);
-    free(p);
-
-
+    collector.getList().addCollectorNode(p);
 
 }

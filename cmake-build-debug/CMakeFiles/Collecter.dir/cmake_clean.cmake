@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Collecter.dir/source/List.cpp.o"
   "CMakeFiles/Collecter.dir/source/Node.cpp.o"
   "CMakeFiles/Collecter.dir/source/Collector.cpp.o"
+  "CMakeFiles/Collecter.dir/source/NodeCollector.cpp.o"
   "Collecter.pdb"
   "Collecter"
 )

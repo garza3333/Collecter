@@ -231,6 +231,33 @@ source/Node.cpp.s:
 	$(MAKE) -f CMakeFiles/Collecter.dir/build.make CMakeFiles/Collecter.dir/source/Node.cpp.s
 .PHONY : source/Node.cpp.s
 
+source/NodeCollector.o: source/NodeCollector.cpp.o
+
+.PHONY : source/NodeCollector.o
+
+# target to build an object file
+source/NodeCollector.cpp.o:
+	$(MAKE) -f CMakeFiles/Collecter.dir/build.make CMakeFiles/Collecter.dir/source/NodeCollector.cpp.o
+.PHONY : source/NodeCollector.cpp.o
+
+source/NodeCollector.i: source/NodeCollector.cpp.i
+
+.PHONY : source/NodeCollector.i
+
+# target to preprocess a source file
+source/NodeCollector.cpp.i:
+	$(MAKE) -f CMakeFiles/Collecter.dir/build.make CMakeFiles/Collecter.dir/source/NodeCollector.cpp.i
+.PHONY : source/NodeCollector.cpp.i
+
+source/NodeCollector.s: source/NodeCollector.cpp.s
+
+.PHONY : source/NodeCollector.s
+
+# target to generate assembly for a file
+source/NodeCollector.cpp.s:
+	$(MAKE) -f CMakeFiles/Collecter.dir/build.make CMakeFiles/Collecter.dir/source/NodeCollector.cpp.s
+.PHONY : source/NodeCollector.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... source/Node.o"
 	@echo "... source/Node.i"
 	@echo "... source/Node.s"
+	@echo "... source/NodeCollector.o"
+	@echo "... source/NodeCollector.i"
+	@echo "... source/NodeCollector.s"
 .PHONY : help
 
 

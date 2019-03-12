@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/sebas211288/Desktop/ProyectCollector/cmake-build-debug
 CMakeFiles/Collecter.dir/all:
 	$(MAKE) -f CMakeFiles/Collecter.dir/build.make CMakeFiles/Collecter.dir/depend
 	$(MAKE) -f CMakeFiles/Collecter.dir/build.make CMakeFiles/Collecter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Collecter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Collecter"
 .PHONY : CMakeFiles/Collecter.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/Collecter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Collecter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Collecter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Collecter.dir/rule

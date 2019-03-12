@@ -7,6 +7,7 @@
 
 
 #include "List.h"
+
 /**
  * @file Collector.h
  * @version 1.0
@@ -17,7 +18,7 @@
 class Collector {
 
 private:
-    List l;
+    static List l;
 public:
     /**
      * Constructor de la clase Collector
@@ -27,11 +28,7 @@ public:
      *
      * @return retorna un puntero que se encientre libre dentro de la lista de collector
      */
-    Node* recycle();
-    /**
-     *
-     * @return retorna el atirbuto list de collector
-     */
+
     List getList();
 
 };

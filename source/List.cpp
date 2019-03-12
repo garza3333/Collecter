@@ -3,10 +3,11 @@
 //
 
 #include "../headers/List.h"
+#include "../headers/NodeCollector.h"
 #include<iostream>
 using namespace std;
 List::List() {
-    size = 0; this->head = 0;
+    size = 0; this->head = 0;this->headC=0;
 }
 
 int List::getSize() {
@@ -62,16 +63,19 @@ void List::delNode(int n) {
         Node* temp = this->getHead();
 
         if(temp->getValue()==n){
-            delete(head);
+            delete head;
             head = temp->getNext();
+
         }else{
             if(temp->getValue() == n)
                 while(temp->getNext()->getValue()!=n){
-                    temp = temp = temp->getNext();
+                    temp  = temp->getNext();
                 }
             temp->setNext(temp->getNext()->getNext());
-            delete(temp->getNext());
+            delete temp->getNext();
+
         }
+        delete temp;
 
     }
 
@@ -86,6 +90,47 @@ void List::see() {
             cout<<temp->getValue()<<", ";
             temp = temp->getNext();
         }cout<<temp->getValue()<<"]";
+    }else{
+        cout<<"[]";
+    }
+}
+
+void List::addCollectorNode(void * v) {
+    if(this->isEmptyC()){
+        this->headC = new NodeCollector(v);
+    }else{
+        NodeCollector* temp = this->getHeadC();
+        while(temp->getNext()!=0){
+            temp = temp->getNext();
+        }
+        NodeCollector* n = new NodeCollector(v);
+        temp->setNext(n);
+    }
+    size++;
+
+}
+NodeCollector* List::getHeadC() {
+    return this->headC;
+}
+void List::deleteCollectorNode() {
+    NodeCollector * temp = this->getHeadC();
+    headC = temp->getNext();
+    delete headC;
+    delete temp;
+
+}
+bool List::isEmptyC() {
+    return this->getHeadC() == 0;
+}
+
+void List::seeC() {
+    if(!isEmptyC()){
+        NodeCollector* temp = this->getHeadC();
+        cout<<"[";
+        while(temp->getNext() != 0){
+            cout<<temp->getVal()<<", ";
+            temp = temp->getNext();
+        }cout<<temp->getVal()<<"]";
     }else{
         cout<<"[]";
     }

@@ -22,7 +22,7 @@ private:
     int value = 0;
     Node* next = 0;
     static Collector collector;
-public
+public:
     Node();
     /**
      * @brief Constructor de la clase Node

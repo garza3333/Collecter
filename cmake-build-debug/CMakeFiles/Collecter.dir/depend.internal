@@ -5,19 +5,26 @@ CMakeFiles/Collecter.dir/main.cpp.o
  /home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
  /home/sebas211288/Desktop/ProyectCollector/headers/List.h
  /home/sebas211288/Desktop/ProyectCollector/headers/Node.h
+ /home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
  /home/sebas211288/Desktop/ProyectCollector/main.cpp
 CMakeFiles/Collecter.dir/source/Collector.cpp.o
  /home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
  /home/sebas211288/Desktop/ProyectCollector/headers/List.h
  /home/sebas211288/Desktop/ProyectCollector/headers/Node.h
+ /home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
  /home/sebas211288/Desktop/ProyectCollector/source/Collector.cpp
 CMakeFiles/Collecter.dir/source/List.cpp.o
  /home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
  /home/sebas211288/Desktop/ProyectCollector/headers/List.h
  /home/sebas211288/Desktop/ProyectCollector/headers/Node.h
+ /home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
  /home/sebas211288/Desktop/ProyectCollector/source/List.cpp
 CMakeFiles/Collecter.dir/source/Node.cpp.o
  /home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
  /home/sebas211288/Desktop/ProyectCollector/headers/List.h
  /home/sebas211288/Desktop/ProyectCollector/headers/Node.h
+ /home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
  /home/sebas211288/Desktop/ProyectCollector/source/Node.cpp
+CMakeFiles/Collecter.dir/source/NodeCollector.cpp.o
+ /home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
+ /home/sebas211288/Desktop/ProyectCollector/source/NodeCollector.cpp

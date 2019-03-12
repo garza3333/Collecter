@@ -4,20 +4,27 @@
 CMakeFiles/Collecter.dir/main.cpp.o: ../headers/Collector.h
 CMakeFiles/Collecter.dir/main.cpp.o: ../headers/List.h
 CMakeFiles/Collecter.dir/main.cpp.o: ../headers/Node.h
+CMakeFiles/Collecter.dir/main.cpp.o: ../headers/NodeCollector.h
 CMakeFiles/Collecter.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/Collecter.dir/source/Collector.cpp.o: ../headers/Collector.h
 CMakeFiles/Collecter.dir/source/Collector.cpp.o: ../headers/List.h
 CMakeFiles/Collecter.dir/source/Collector.cpp.o: ../headers/Node.h
+CMakeFiles/Collecter.dir/source/Collector.cpp.o: ../headers/NodeCollector.h
 CMakeFiles/Collecter.dir/source/Collector.cpp.o: ../source/Collector.cpp
 
 CMakeFiles/Collecter.dir/source/List.cpp.o: ../headers/Collector.h
 CMakeFiles/Collecter.dir/source/List.cpp.o: ../headers/List.h
 CMakeFiles/Collecter.dir/source/List.cpp.o: ../headers/Node.h
+CMakeFiles/Collecter.dir/source/List.cpp.o: ../headers/NodeCollector.h
 CMakeFiles/Collecter.dir/source/List.cpp.o: ../source/List.cpp
 
 CMakeFiles/Collecter.dir/source/Node.cpp.o: ../headers/Collector.h
 CMakeFiles/Collecter.dir/source/Node.cpp.o: ../headers/List.h
 CMakeFiles/Collecter.dir/source/Node.cpp.o: ../headers/Node.h
+CMakeFiles/Collecter.dir/source/Node.cpp.o: ../headers/NodeCollector.h
 CMakeFiles/Collecter.dir/source/Node.cpp.o: ../source/Node.cpp
+
+CMakeFiles/Collecter.dir/source/NodeCollector.cpp.o: ../headers/NodeCollector.h
+CMakeFiles/Collecter.dir/source/NodeCollector.cpp.o: ../source/NodeCollector.cpp
 

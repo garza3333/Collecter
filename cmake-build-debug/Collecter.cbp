@@ -93,6 +93,9 @@
 		<Unit filename="/home/sebas211288/Desktop/ProyectCollector/headers/Node.h">
 			<Option target="Collecter"/>
 		</Unit>
+		<Unit filename="/home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h">
+			<Option target="Collecter"/>
+		</Unit>
 		<Unit filename="/home/sebas211288/Desktop/ProyectCollector/main.cpp">
 			<Option target="Collecter"/>
 		</Unit>
@@ -103,6 +106,9 @@
 			<Option target="Collecter"/>
 		</Unit>
 		<Unit filename="/home/sebas211288/Desktop/ProyectCollector/source/Node.cpp">
+			<Option target="Collecter"/>
+		</Unit>
+		<Unit filename="/home/sebas211288/Desktop/ProyectCollector/source/NodeCollector.cpp">
 			<Option target="Collecter"/>
 		</Unit>
 		<Unit filename="/home/sebas211288/Desktop/ProyectCollector/CMakeLists.txt">

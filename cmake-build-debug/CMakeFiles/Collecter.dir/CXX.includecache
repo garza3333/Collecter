@@ -13,12 +13,16 @@ List.h
 /home/sebas211288/Desktop/ProyectCollector/headers/List.h
 Node.h
 /home/sebas211288/Desktop/ProyectCollector/headers/Node.h
+NodeCollector.h
+/home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
 
 /home/sebas211288/Desktop/ProyectCollector/headers/Node.h
 cstddef
 -
 Collector.h
 /home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
+
+/home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
 
 /home/sebas211288/Desktop/ProyectCollector/main.cpp
 iostream
@@ -29,10 +33,14 @@ headers/List.h
 /home/sebas211288/Desktop/ProyectCollector/source/Collector.cpp
 ../headers/Collector.h
 /home/sebas211288/Desktop/ProyectCollector/headers/Collector.h
+../headers/List.h
+/home/sebas211288/Desktop/ProyectCollector/headers/List.h
 
 /home/sebas211288/Desktop/ProyectCollector/source/List.cpp
 ../headers/List.h
 /home/sebas211288/Desktop/ProyectCollector/headers/List.h
+../headers/NodeCollector.h
+/home/sebas211288/Desktop/ProyectCollector/headers/NodeCollector.h
 iostream
 -
 

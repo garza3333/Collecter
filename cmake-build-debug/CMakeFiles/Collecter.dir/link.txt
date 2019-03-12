@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Collecter.dir/main.cpp.o CMakeFiles/Collecter.dir/source/List.cpp.o CMakeFiles/Collecter.dir/source/Node.cpp.o CMakeFiles/Collecter.dir/source/Collector.cpp.o  -o Collecter 
+/usr/bin/c++  -g   CMakeFiles/Collecter.dir/main.cpp.o CMakeFiles/Collecter.dir/source/List.cpp.o CMakeFiles/Collecter.dir/source/Node.cpp.o CMakeFiles/Collecter.dir/source/Collector.cpp.o CMakeFiles/Collecter.dir/source/NodeCollector.cpp.o  -o Collecter 

@@ -7,6 +7,8 @@
 
 
 #include "Node.h"
+#include "NodeCollector.h"
+
 /**
  * @file List.h
  * @version 1.0
@@ -19,6 +21,7 @@ class List {
 private:
     int size;
     Node* head;
+    NodeCollector* headC;
 
 public:
     /**
@@ -65,6 +68,14 @@ public:
      * Metodo para imprimir en consola todos los valores que están dentro de la lista
      */
     void see();
+
+    // METODOS PARA LA LISTA QUE VA A UTILIZAR LA CLASE COLLECTOR
+
+    void addCollectorNode(void * v);
+    void deleteCollectorNode();
+    NodeCollector* getHeadC();
+    bool isEmptyC();
+    void seeC();
 };
 
 

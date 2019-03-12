@@ -3,7 +3,14 @@
 
 using namespace std;
 int main() {
-    Node * n = new Node(2);
-    cout<<n->getValue();
+    List* l = new List();
+    l->add(1);
+    l->add(2);
+    l->add(3);
+    l->addFirst(4);
+    l->addFirst(5);
+    l->see();
+
+
     return 0;
 }

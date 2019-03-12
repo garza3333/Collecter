@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/sebas211288/Desktop/ProyectCollector/source/Collector.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/source/Collector.cpp.o"
   "/home/sebas211288/Desktop/ProyectCollector/source/List.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/source/List.cpp.o"
   "/home/sebas211288/Desktop/ProyectCollector/source/Node.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/source/Node.cpp.o"
+  "/home/sebas211288/Desktop/ProyectCollector/source/NodeCollector.cpp" "/home/sebas211288/Desktop/ProyectCollector/cmake-build-debug/CMakeFiles/Collecter.dir/source/NodeCollector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,3 +3,11 @@
 //
 
 #include "../headers/Collector.h"
+#include "../headers/List.h"
+
+Collector::Collector() {
+    l = List();
+}
+List Collector::getList() {
+    return l;
+}
